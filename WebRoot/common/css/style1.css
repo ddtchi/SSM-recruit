@@ -1,0 +1,401 @@
+body{margin:0px;padding:0px;}
+div{margin:0; padding:0;}
+img{margin:0; padding:0; border:0;}
+
+
+frameset{margin:0;padding:0}
+frame{margin:0;padding:0}
+dl,dt,dd,p{Margin:0px;Padding:0px;list-style:none}
+
+.divline{clear:both;overflow:hidden;height:10px;width:100%; background:none;}
+/*全局A样式*/
+/*
+A{COLOR:#919191; TEXT-DECORATION: None;FONT-SIZE: 12px;}
+A:link	{COLOR:#919191; TEXT-DECORATION: None;FONT-SIZE: 12px;}
+A:visited{COLOR:#919191; TEXT-DECORATION: None;FONT-SIZE: 12px;}
+A:hover	{COLOR:#FF6710; TEXT-DECORATION: None;FONT-SIZE: 12px;}
+A:active{TEXT-DECORATION: none;FONT-SIZE: 12px;}
+
+strong{COLOR:#FFF; background:#1D1D1D;padding:5px 5px 5px 5px;}
+.color_a{ color:#CCC !important;}
+*/
+/*图片A样式*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.global_two{ width:85%; height:auto; margin:0 auto; clear:both; overflow:hidden;}
+.global_one{ width:45%; height:auto; margin:0 auto; clear:both; overflow:hidden;}
+.list_one{ width:100%; height:20px; margin:20px 0;}
+.list{ width:50%; height:20px; margin:20px 0; float:left;}
+.title{ width:20%; float:left; height:20px; line-height:20px; font-size:14px; color:#666; text-align:right;}
+.Input{ width:78%; float:right;}
+.Input .combo{float:left;margin-left:20px;}
+.Input input{ width:200px; height:28px; float:left; border:1px #CCC solid; font-size:14px; color:#666; padding-left:10px; outline:none;margin-left:20px; }
+
+.button input{ width:80px; height:28px; margin:0 25px; font-size:14px; color:#fff; border:solid 1px #CCC; background:#F9F9F9; outline:none;}
+.button a{margin:0 15px;}
+
+.screening{ width:100%; }
+
+.top{ width:94%; height:50px; padding:0 3%; position:relative; border-bottom:1px #cecece solid; background:url(/yzc/resources/images/top.jpg) repeat-x;}
+.top img{ float:left; margin-right:15px;}
+.top_title{ float:left; padding-top:10px; font-size:16px; color:#360a02;}
+.top_title span{ padding:0 5px; font-size:22px; color:#d66500;}
+.exit{ position:absolute; top:13px; right:3%;}
+.exit a{ display:block; float:left; margin-right:25px; font-size:12px; text-decoration:none; color:#5c4540;}
+.exit img{ float:left; margin-right:8px;}
+.exit span{ display:inline-table; padding-top:1px;}
+.time{ float:left; padding:22px 0 0 30px; font-size:12px; color:#d66500;}
+
+
+.dialog-button{
+	text-align: center;
+}
+
+
+
+/*********************************** 表单样式start*************************/
+.ui-table { width: 'auto'; overflow: hidden; margin-left: 10px;margin-bottom: 10px;margin-right: 10px;margin-top: 10px;background-color:white}  
+.ui-margin{
+   width: auto; overflow: hidden;margin-bottom: 10px; margin-left: 5px;margin-right: 5px;margin-top: 10px;background-color:white;
+
+   border:1px solid #B1B1B1;
+   	margin-top:5px;
+	display:inline-block;
+}
+
+/*.ui-table[type="nomargin"] { width: auto; overflow: hidden; margin-left: 0px;margin-bottom: 0px;margin-right: 0px;margin-top: 0px;background-color:white}  */
+.ui-border{ 
+	width: auto; 
+	overflow: hidden;
+	background-color:white;
+	border:1px solid #B1B1B1;
+    margin-top:10px;
+    display:inline-block;
+  }  
+.ui-noborder { 
+   width: auto; 
+  overflow:hidden; 
+  margin:0;
+  background-color:white;
+  margin-top:0px;
+  display:inline-block;
+}  
+.ui-nomargin-bottom{
+ width: auto; overflow: auto; margin-bottom: 10px; margin-left: 0px;margin-right: 0px;margin-top: 0px;;background-color:white;
+}
+
+
+/*默认表单标题*/
+.barTitle {
+	margin: 1px;
+	height: 28px;
+	background-color: #5791C3;
+	width:100%;
+}
+/*表单标题下横线*/
+.barTitleHr{
+	height:0px; 
+	line-height:0px; 
+	font-size:0; 
+	border:none; 
+	float: right; 
+	display:block;
+	display:none;
+}
+/*表单标题内容*/
+.barTitle .content {
+	padding-top: 5px;
+	padding-left: 5px;
+	font-weight: bold;
+	font-size:14px;
+	color: white;
+	margin:0;
+}
+.barTitle .content a{
+	cursor:default;
+	height:16px; 
+	width:16px; 
+	float:left;
+	background:url( "images/grid.gif")   left   no-repeat; 
+	margin-top:3px;
+	padding-right:5px;
+	display:inline-block;
+    margin-top:4px;
+}
+.barTitle .content span{
+	height:16px; 
+	width:auto; 
+	margin-top:3px;
+	float:left;
+}
+/*查询条件按钮*/
+.barTitle .content .displayHidden {
+	vertical-align:middle;
+	cursor:hand;
+	display:block; 
+	float:right;
+	padding-right:5px;
+	background:none; 
+	width:auto; 
+	color:white;
+}
+/*分组的legend边距*/
+.ui-table legend{ 
+   text-align:center;
+   margin-left:10px;
+}
+
+/*表单整体样式*/
+.table {
+	width: 100%;
+	width:90%;
+	background-color: White;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-right:10px;
+}
+/*表单td样式*/
+.table td{
+	height: 30px;
+	font-weight: normal;
+}
+
+/*表单td label样式*/
+.inputLabelTd {   
+	padding-right: 10px;
+	width:18%;
+	text-align: right;
+}
+/*表格输入框单元格*/
+.inputTd {
+    text-align: left;
+	padding-left:5px;
+}
+
+/*表格页脚单元格*/
+.footTd {
+    text-align: center;
+	height:40px;
+    background-color:#F6F6F6;
+    border-color: #C3DAF9;
+    font-style: normal;
+}
+/*表格页脚控件居中样式*/
+.footTd td{
+   text-align: center;
+}
+/*表格页脚单元格，三边没有border*/
+.foottable{
+    width: 100%;
+	border-left: none;
+	border-bottom: none;
+	border-right: none;
+	margin:0px;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	width:100%;
+	margin-top:0;
+}
+/*分组表单里的table*/
+.infieldset{
+  	border-collapse: collapse;
+	width: 100%;
+	background-color: White;
+	margin:0px;
+	margin-bottom:10px;
+}
+/*分组表单样式，三边没有border*/
+ fieldset {
+	margin: 10px 10px 10px 10px;
+	border: #DDD 1px solid;
+	background-color:white;
+}
+ legend {
+	color:black;
+	margin-left:10px;
+}
+/*分组表单中的table 没有border*/
+ fieldset .table{
+    border: none;
+ }
+ /*默认按钮样式*/
+ .button1{
+    display: inline-block; 
+   position: relative; 
+   margin-right: 5px; 
+   text-decoration: none !important; 
+   cursor: pointer; 
+   text-align: center; 
+   overflow: visible; 
+   height:22px;
+   border: 1px solid #a4bcc5;
+   font-size: 12px;
+   padding-left:1em;
+   padding-right:1em;
+   font-weight: bold;
+   background-color:#ffffff;
+   background-image: url(/yzc/resources/images/button_bg.jpg); 
+   color:#555555;
+ }
+/*录入table 元素样式 start*/
+.text{
+   	height: 20px;
+    width:  198px;
+	padding-top:1px;
+    padding-bottom:1px;
+	padding-left:1px;
+}
+input.Wdate{
+    border:#DBDFE6 1px solid;
+    height: 22px;
+    width:  198px;
+	padding-top:1px;
+    padding-bottom:1px;
+	padding-left:1px;
+}
+.select{
+  	height: 24px;
+	padding-left:1px;
+	margin-top:2px;
+	border:#DBDFE6 1px solid;
+	width:128px;
+}
+.textarea{
+  	height: 85px;
+	padding-left:1px;
+	border-color:1px solid #C7E2F1;
+	width:328px;
+}
+.checkbox{
+   	height: 20px;
+	padding-top:1px;
+    padding-bottom:1px;
+	padding-left:1px;
+	margin-right: 5px;
+}
+.checkbox+span{
+   margin-right:10px;
+}
+.password{
+   	height: 20px;
+    width:  198px;
+}
+.radio{
+   	height: 20px;
+    width:  auto;
+	margin-right:5px;
+}
+.radio+span{
+   margin-right:10px;
+}
+/*录入table 元素样式 end*/
+/*详细信息表单页面中的table*/
+.forview {
+    width:100%;
+	margin:0px;
+	table-layout:fixed; 
+}
+.forview  .inputLabelTd{   
+    border-left: 1px solid #dce2e4;
+    border-bottom: 1px solid #dce2e4;
+	padding-right: 15px;
+	text-align: right;
+	font-weight: blod;
+	background-color:#F9F9F9;
+	background-color:#F9F9F9 !important; /*仅IE7*/ 
+    background-color:#efefef; /*仅IE6及IE6以下*/ 
+	width:12%;
+}
+.forview  .inputTd{   
+    border-left: 1px solid #dce2e4;
+    border-bottom: 1px solid #dce2e4;
+	width:24%;
+	word-wrap:break-word;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+/**查询列表中的查询条件栏样式*/
+.equal { 
+	display:table; 
+	margin:5px;
+} 
+.row { 
+    display:''; 
+	padding-top:5px;
+    padding-bottom:5px;
+	
+} 
+.row .cell .labelcell { 
+	float:left;
+	border:0;
+	padding-right: 3px;
+	text-align: right;
+	height:30px;
+	line-height:30px;
+	width:90px;
+
+} 
+.row .cell .valuecell { 
+	border:0;	
+	float:left;
+	text-align: left;
+	padding-left:3px;
+	height:30px;
+	line-height:30px;
+} 
+
+
+.row .cell { 
+	float:left;
+	border:0;
+	padding-top:5px;
+	padding-right:0px;
+    padding-bottom:5px;
+	width:auto;
+    display:inline;
+	font-weight: normal;
+	padding:0;
+} 
+.row .querycell{ 
+	float:left;
+	border:0;
+	padding-top:5px;
+	padding-left:10px;
+    padding-bottom:5px;
+	width:100px;
+    display:inline;
+	font-weight: normal;
+	padding:0;
+	padding-left:10px;
+} 
+
+.row .querycell  button {
+    height: 20px;
+    margin-top:5px;
+}
+/*grid的按钮栏样式*/
+.ui-table .nav{
+  margin:10px;
+}
+
+.descriptiontable{
+   height:45px;
+   background: url(images/dialog_bg.jpg) #eaece9 no-repeat right top;
+}
+.descriptiontable a{
+
+   cursor:default;
+	height:32px; 
+	width:32px; 
+	float:left;
+	background:url(images/window.gif)   left   no-repeat; 
+	margin-left:10px;
+	border:0;
+	padding-right:5px;
+   display:inline-block;
+   margin-top:4px;
+}
+/*********************************** 表单样式end *************************/
